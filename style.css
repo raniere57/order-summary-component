@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
+section{
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.outerDiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.innDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.outerImg{
+    border-radius: 15px 15px 0 0;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+span:first-of-type{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+span:last-of-type{
+    color: hsl(224, 23%, 55%);
+}
+
+a{
+    font-weight: 700;
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    border: none;
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    border: none;
+}
+
+.payment:hover{
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #766CF1;
+
+}
